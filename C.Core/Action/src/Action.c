@@ -25,3 +25,11 @@ int main() {
 
 // This code produces the following output with colors:
 //
+// Bruce
+// Alfred
+// Tim
+// Richard
+// Bruce
+// Alfred
+// Tim
+// Richard
