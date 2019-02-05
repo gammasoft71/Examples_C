@@ -2,8 +2,8 @@
 
 // The main entry point for the application.
 int main() {
-  const size_t logo_lines = 32;
-  const char* logo[logo_lines] = {
+  const size_t logo_size = 32;
+  const char* logo[logo_size] = {
     "████████████████████████████████████████████████████████████",
     "██████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░██████",
     "██████████████████████████████░░░░░░░░░░░░░░░░░░░░░░████░░████████",
@@ -44,8 +44,8 @@ int main() {
   const char* foregroundDarkBlue = "\033[94m";
   const char* foregroundReset = "\033[39m";
   
-  for (int index = 0; index < logo_lines; ++index) {
-    printf("%s", (index == 0 || index == logo_lines - 1 ? "       " : "     "));
+  for (int index = 0; index < logo_size; ++index) {
+    printf("%s", (index == 0 || index == logo_size - 1 ? "       " : "     "));
     printf("%s", foregroundDarkBlue);
     printf("%s", backgroundWhite);
     printf("%s", logo[index]);
