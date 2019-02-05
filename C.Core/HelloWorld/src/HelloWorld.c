@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 
+// The main entry point for the application.
 int main() {
   printf("Hello, World!\n");
 }
