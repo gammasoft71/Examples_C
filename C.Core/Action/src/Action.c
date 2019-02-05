@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-void print_line(const char* s) {
-  printf("%s\n", s);
-}
-
 void for_each(const char* array[], const size_t size, void (*action)(const char*)) {
   for (int index = 0; index < size; ++index)
     action(array[index]);
+}
+
+void print_line(const char* s) {
+  printf("%s\n", s);
 }
 
 // The main entry point for the application.
