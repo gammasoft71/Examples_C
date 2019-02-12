@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/// @remarks To enable ANSI colors on Windows, add following key in the registry :
+/// [HKEY_CURRENT_USER\Console] "VirtualTerminalLevel"=dword:00000001
+
 // The main entry point for the application.
 int main() {
   const size_t logo_size = 32;
